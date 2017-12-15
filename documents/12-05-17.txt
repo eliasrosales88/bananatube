@@ -1,0 +1,9 @@
+Desenfadada
+Minimalista
+Colores planos
+Colores1:
+    Fondo: Interior banana
+    Logo: Verde
+    Texto: Marrón oscuro
+    Logotipo/Botones: 
+    Navbar: 
