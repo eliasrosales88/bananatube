@@ -9,26 +9,32 @@
 <body>
     <h3>Registro</h3>
     <form name="Registro" id="registro" action="" method="post" enctype="multipart/form-data">
+        <!-- Nombre de Usuario-->
         <div>
             <label for="nombre">Nombre de Usuario <strong>(*)</strong></label>
             <input type="text" id="nombre" name="nombre-usuario" placeholder="Tu nombre de usuario aquí :)" required/>
         </div>
+        <!--contraseña-->
         <div>
             <label for="pass">Contraseña <strong>(*)</strong></label>
             <input type="password" id="pass" name="contraseña" placeholder="¡Elige una contraseña segura!" required/>
         </div>
+        <!-- Confirmar contraseña-->
         <div>
              <label for="pass">Confirmar Contraseña <strong>(*)</strong></label>
             <input type="password" id="pass" name="contraseña-confirmada" placeholder="Repite la contraseña" required/>
         </div>
+        <!-- email-->
         <div>
             <label for="email">Correo electrónico <strong>(*)</strong></label>
             <input type="email" id="email" name="email" placeholder="Tu dirección email aquí :)" required minleght="5"/>
         </div>
+        <!--nombre o apellidos, especifico que se puede elegir un nickname-->
         <div>
             <label for="nombre-apellidos">Nombre y Apellidos <strong>(*)</strong></label>
             <input type="text" id="nombre-apellidos" name="Nombre y Apellidos" placeholder="También vale un nickname :)" required minleght="3" maxlength="20"/>
         </div>
+        <!-- foto de perfil -->
         <div>
             <label for="imagen">Inserta aquí tu foto de perfil</label>
             <input type="file" id="imagen" name="imagen" accept="image/*"/>
@@ -36,6 +42,7 @@
         <div id="obligatorios">
             <strong>(*)</strong> Campos obligatorios
         </div>
+        <!-- Términos y condiciones-->
         <div>
             <input type="checkbox" id="check" name="términosycondiciones" required/>
             <label for="check">Acepto <a href="#">términos y condiciones de uso</a></label>
