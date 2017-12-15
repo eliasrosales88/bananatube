@@ -7,6 +7,123 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form name="upvideo"
+          id=upvideo
+          action="#"
+          method="post"
+          enctype="multipart/form-data"
+          >
+<!--selección de video-->
+        <div>
+            <label for="upfile">Selecciona el archivo que quiera subir:</label>
+            <input type="file"
+                   name="upfile"
+                   id="upfile"
+                   accept="video/*"
+                   required
+                   />
+        </div>
+<!--titulo del video-->        
+        <div>
+          <label for="title" >Título</label> 
+            <input type="text"
+                   name="title"
+                   id="title"
+                   placeholder="Máximo 50 caractéres"
+                   maxlength="50"
+                   autocomplete="off"
+                   required
+                   />
+        </div>
+<!--tags del video-->        
+        <div>
+            <label for="tags" >Tags</label> 
+            <input type="text"
+                   name="tags"
+                   id="tags"
+                   placeholder="Separa los tags mediante una coma"
+                   autocomplete="off"
+                   required
+                   />
+        </div>
+<!--Descripción-->        
+        <div>
+            <label for="description" >Descripción</label> 
+            <textarea
+                   name="description"
+                   id="description"
+                   maxlength="2000"
+                   cols="50"  
+                   placeholder="Introduce aquí el mensaje que quieras que acompañe al vídeo. (máx 2000 carácters)"
+                   autocomplete="off"                      
+                   ></textarea>
+        </div>
+<!--PermisosVisionado-->        
+        <div>
+            <label for="viewpermission">¿Quién puede verlo?</label>
+            <div>
+                <label for="view_me">Solo yo.</label>
+                <input type="radio" 
+                       id="view_me" 
+                       name="viewpermission" 
+                       value="me"
+                       checked
+                       />
+            </div>
+            <div>
+                <label for="view_friends">Mis amigos.</label>
+                <input type="radio" 
+                       id="view_friends" 
+                       name="viewpermission" 
+                       value="friends"/>
+            </div>
+            <div>
+                <label for="view_all">Todo el mundo.</label>
+                <input type="radio" 
+                       id="view_all" 
+                       name="viewpermission" 
+                       value="all"/>
+            </div>
+            <div>
+                <label for="view_url">Quien tenga la URL.</label>
+                <input type="radio" 
+                       id="view_url" 
+                       name="viewpermission" 
+                       value="url"/>
+            </div>   
+        </div>
+<!--Permisos de descarga-->        
+        <div>
+            <label for="dlpermission">¿Quién puede descargarlo?</label>
+            <div>
+                <label for="dl_me">Solo yo.</label>
+                <input type="radio" 
+                       id="dl_me" 
+                       name="dlpermission" 
+                       value="me"
+                       checked/>
+            </div>
+            <div>
+                <label for="dl_friends">Mis amigos.</label>
+                <input type="radio" 
+                       id="dl_friends" 
+                       name="dlpermission" 
+                       value="friends"/>
+            </div>
+            <div>
+                <label for="dl_all">Todo el mundo.</label>
+                <input type="radio" 
+                       id="dl_all" 
+                       name="dlpermission" 
+                       value="all"/>
+            </div>
+            
+        </div>
+<!--Publicar-->
+        <div>
+            <input type="submit" 
+                   value="Publicar">
+        </div>        
+    </form>
 </body>
 </html>
