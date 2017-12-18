@@ -15,14 +15,14 @@
 }
 
 .search{
-    width: 65%;
-    margin-bottom: 10px;
-    text-align: center;
+    width: 70%;
+    margin-top: 10px;
+    float: right;
+    box-shadow: 0px 1px 2px 0px #333333;
 
 }
 
 .header .icon{
-    width: 4%;
     margin-top: 6px;
 }
 
@@ -30,13 +30,15 @@
     padding: 0px;
     border: 0px;
     border-radius: 2px;
-    height: 22px;
-    width: 80%;
+    height: 40px;
+    width: 100%;
 }
 
-.logo{
-    width: 20%;
+.logo_mobile{
+    width: 10%;
     text-align: center;
+    float: left;
+    margin-left: 10px;
 }
 .right{
     float: right;
@@ -44,4 +46,13 @@
 }
 .left{
     margin-left: 4px;
+    float: left;
+}
+
+.logo_mobile img{
+    max-width: 60px;
+    margin-top: 6px;
+}
+.logo_search{
+    width: 70%;
 }
