@@ -48,7 +48,7 @@
         </div>
 <!--Descripción-->        
         <div>
-            <label for="description" >Descripción</label> 
+            <label for="description" >Descripción</label> <br/>
             <textarea
                    name="description"
                    id="description"
@@ -116,6 +116,30 @@
                        id="dl_all" 
                        name="dlpermission" 
                        value="all"/>
+            </div>
+            
+        </div>
+        <!--FechaPublicación-->        
+        <div>
+            <label for="postdate">¿Cuando quieres publicarlo?</label>
+            <div>
+                <label for="dl_me">Solo yo.</label>
+                <input type="radio" 
+                       id="instapost" 
+                       name="postdate" 
+                       value="now"
+                       checked/>
+            </div>
+            <div>
+                <label for="postdate">En otro momento.</label>
+                <input type="radio" 
+                       id="postlater" 
+                       name="postdate" 
+                       value="late"/>
+                <input type="datetime-local" 
+                       id="whenpost" 
+                       name="postdate" 
+                       value=""/>
             </div>
             
         </div>
