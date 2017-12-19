@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Resultados de Búsqueda</title>
+</head>
+<body>
+    <h3>Filtros de Búsqueda</h3>
+    <form id="searchfilters" name="searcfilters" action="#" method="post" enctype="multipart/form-data"/>
+        <div> 
+            <h4><label>Tipo de Contenido</label></h4> 
+                <p></p>
+            <input type="radio" id="video" name="tipo" value="video"/>
+            <label for="video">Video</label>
+            <input type="radio" id="usuario" name="tipo" value="usuario"/>
+            <label for="usuario">Usuario</label>
+            <input type="radio" id="comentario" name="tipo" value="comentario"/>
+            <label for="comentario">Comentario</label>
+        </div>
+        <div>
+            <h4><label>Fecha de subida</label></h4>
+                <p></p>
+            <input type="radio" id="ultima-hora" name="subida" value="ultima-hora"/>
+            <label for="ultima-hora">Última hora</label>
+            <input type="radio" id="hoy" name="subida" value="hoy"/>
+            <label for="hoy">Hoy</label>
+            <input type="radio" id="esta-semana" name="subida" value="esta-semana"/>
+            <label for="esta-semana">Esta semana</label>
+            <input type="radio" id="este-mes" name="subida" value="este-mes"/>
+            <label for="este-mes">Este mes</label>
+            <input type="radio" id="este-ano" name="subida" value="este-ano"/>
+            <label for="este-ano">Este año</label>
+        </div>
+        <div>
+            <h4><label>Duración</label></h4>
+            <p></p>
+            <input type="radio" id="5min" name="duracion" value="5min">
+            <label for="5min">Menos de 5 minutos</label>
+            <input type="radio" id="10min" name="duracion" value="10min">
+            <label for="10min">Menos de 10 minutos</label>
+            <input type="radio" id="15min" name="duracion" value="15min">
+            <label for="15min">Menos de 15 minutos</label>
+            <input type="radio" id="more15min" name="duracion" value="more15min">
+            <label for="more15min">Más de 15 Minutos</label>
+        </div>
+</body>
