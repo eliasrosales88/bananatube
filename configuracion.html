@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Configuración</title>
+</head>
+
+<body>
+    <div>
+        <form name="configuración" id="config" action="#" method="post" enctype="multipart/form-data">
+
+            <h2>Configuración</h2>
+            <div>
+                <label for="nuevo_nombre">Nuevo nombre de Usuario </label>
+                <input type="text" name="nuevo nombre" id="nuevo_nombre" value="" placeholder="Tu nuevo nombre de usuario aquí :)" required>
+            </div>
+
+            <div>
+                <label for="nueva_contrasena">Nueva contraseña</label>
+                <input type="password" name="password" id="nueva_contrasena" value="" placeholder="Puedes introducir aquí tu nueva contraseña" required>
+            </div>
+
+            <div>
+                <label for="confirmar_nueva_contrasena">Confirmar nueva contraseña</label>
+                <input type="password" name="password" id="confirmar_nueva_contrasena" value="" placeholder="Confirma tu nueva contraseña" required>
+            </div>
+            <div>
+                <input type="checkbox" id="mostrar_notificaciones" name="condiciones" />
+                <label for="mostrar_notificaciones">Mostrar notificaciones</label>
+            </div>
+            <div>
+                <input type="submit" name="changes" value="Guardar cambios" id="guardar_cambios" />
+            </div>
+            <div>
+
+            </div>
+            <input type="submit" name="delete_account" value="Borrar" id="borrar_cuenta" />
+        </form>
+    </div>
+
+
+</body>
+
+</html>
