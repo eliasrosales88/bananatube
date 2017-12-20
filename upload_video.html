@@ -21,6 +21,7 @@
                    id="upfile"
                    accept="video/*"
                    required
+                   tabindex="1"
                    />
         </div>
 <!--titulo del video-->        
@@ -33,6 +34,7 @@
                    maxlength="50"
                    autocomplete="off"
                    required
+                   tabindex="2"
                    />
         </div>
 <!--tags del video-->        
@@ -44,6 +46,7 @@
                    placeholder="Separa los tags mediante una coma"
                    autocomplete="off"
                    required
+                   tabindex="3"
                    />
         </div>
 <!--Descripción-->        
@@ -55,7 +58,8 @@
                    maxlength="2000"
                    cols="50"  
                    placeholder="Introduce aquí el mensaje que quieras que acompañe al vídeo. (máx 2000 carácters)"
-                   autocomplete="off"                      
+                   autocomplete="off" 
+                      tabindex="4"
                    ></textarea>
         </div>
 <!--PermisosVisionado-->        
@@ -68,6 +72,7 @@
                        name="viewpermission" 
                        value="me"
                        checked
+                       tabindex="5"
                        />
             </div>
             <div>
@@ -94,7 +99,7 @@
         </div>
 <!--Permisos de descarga-->        
         <div>
-            <label for="dlpermission">¿Quién puede descargarlo?</label>
+            <label for="dlpermission" tabindex="5">¿Quién puede descargarlo?</label>
             <div>
                 <label for="dl_me">Solo yo.</label>
                 <input type="radio" 
