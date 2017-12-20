@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script>
+       var d = new Date(); 
+    document.getElementsById("comment_when").innerHTML = d.getTime ();
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <form name="upvideo"
+          id=upvideo
+          action="#"
+          method="post"
+          enctype="multipart/form-data"
+          >
+<!--respuesta-->        
+        <div>
+            <label for="new_comment" ></label> <br/>
+            <textarea
+                   name="new_comment"
+                   id="new_comment"
+                   cols="50"  
+                   autocomplete="off"                      
+                   >@Usuario</textarea>
+        </div>
+        <!--Publicar-->
+        <div>
+            <input type="submit" 
+                   value="Comentar"
+                   class="comentreply">
+        </div>  
+<!--hora de comentario-->  
+        <div>
+            <label for="comment_when" ></label> <br/>
+            <input type="hidden"                   
+                   name="comment_when"
+                   id="comment_when"
+                   cols="50"  
+                   value="2014-01-02T11:42:13.510"
+                   >
+            </div>
+<!--usuario que comenta-->  
+        <div>
+            <label for="comment_user" ></label> <br/>
+            <input type="hidden"                   
+                   name="comment_user"
+                   id="comment_user"
+                   cols="50"  
+                   value="Nickname"
+                   >
+            </div>
+
+    </form>
+</body>
+</html>
