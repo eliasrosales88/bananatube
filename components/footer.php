@@ -1,9 +1,3 @@
-<html>
-<head>
-    <link rel="stylesheet" href="./css/style_footer.css" media="screen">
-    <meta charset="UTF-8">
-
-        </head>
 <footer>
     <hr>
 <div>
@@ -21,4 +15,3 @@
     <br/>
     
 </footer>
-</html>

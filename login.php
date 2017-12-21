@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link type="text/css" rel="stylesheet" href="css/login.css"/>
+    <?php include "./components/head.php";?>
     <title>Login</title>
 </head>
 <body>
+    <?php include "./components/header.php";?>
     <section id="login">
          <form id="login_form" name="login" action="login.html" method="post">
                <h2>Inicio de Sesión</h2>
@@ -30,7 +28,7 @@
                <input type="checkbox" name="remember" id="remember"/><label for="remember"> Recuerdame</label>
             </div>
          </form>      
-        <footer>      
+        <div>      
                 <div>
                    <h4>¿No tienes cuenta?</h4>    
                    <input type="submit" name="submit" value="Crear cuenta"/>   
@@ -40,8 +38,8 @@
                    <h4>¿Has olvidado tu contraseña?</h4>  
                    <input type="submit" name="submit" value="Recuperar"/>      
                 </div>      
-
         </footer>
+        <?php include "./components/footer.php";?>
     </section>
 </body>
 </html>
