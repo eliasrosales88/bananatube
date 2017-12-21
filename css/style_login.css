@@ -1,0 +1,43 @@
+body {
+color: #785F22    
+}
+#login{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-image: url(../img/fondo_pantalla3.jpg);
+    box-sizing: border-box;
+    
+}
+#login_form{
+    text-align: center;
+}
+#login_form h2{
+    padding-top: 20px;
+    font-size: 3em;
+    font-family:fantasy;
+    font-weight:bold;
+}
+.campo_form{
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.izq{
+    float:left;
+    width: 50%;
+    text-align: center;
+    padding-top:38px;
+    
+}
+.getaccount {
+    font-family:fantasy;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.subir {
+    padding-top: 10px;
+}
+
+    
+    
