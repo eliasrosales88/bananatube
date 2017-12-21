@@ -1,0 +1,31 @@
+#userlist {
+    width: 90%;
+    margin: 5%;
+}
+.userlist {
+        text-align: center;
+    overflow: auto;
+    background-size: 80%;
+    overflow:auto;
+}
+
+.container{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.userlist_image {
+    background: url(../img/user-background-default.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    overflow:auto;
+    
+}
+.botonfriend {
+    float:left;
+    width: 30%;
+    }
+.userlist_name {
+           
+}
