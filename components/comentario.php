@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link type="text/css" rel="stylesheet" href="css/style_vista_comentario.css" />
+    <link type="text/css" rel="stylesheet" href="../css/style_comentario.css" />
 </head>
 
 <body>
     <div id="main_wrapper">
             <!--Imagen de perfil del usuario y enlace al perfil del usuario mostrado-->
-            <span class="enlinea"><a href="#"><img src="img/no-avatar.png" alt="avatar_usuario_random"/></a></span>
+            <span class="enlinea"><a href="#"><img src="../img/no-avatar.png" alt="avatar_usuario_random"/></a></span>
             <div id="usuario_comentario" class="enlinea">
                 <strong>Nikola Tesla</strong>
                 <br/>
