@@ -4,43 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="css/login.css"/>
     <title>Login</title>
 </head>
 <body>
-    <section id="set">
-     <form id="login" name="login" action="login.html" method="post">
-           <h2>Inicio de Sesión</h2>
-        <div>  
-           <label for="nombredeusuario/email">Nombre de usuario / email</label><br/>      
-           <input type="email" name="Nombredeusuario/email" id="nombredeusuario/email"
-             value="" placeholder="Email de usuario" required autofocus autocomplete="on"/>
-        </div>
-        <div>
-           <label>Contraseña</label><br/>      
-           <input type="password" name="contrasena" id="nontrasena"
-             value="" placeholder="Password" required/>  
-        </div> 
-<br/>    
-        <div>
-           <input type="submit" name="submit" value="Acceso"/>      
-        </div> 
-<br/>      
-        <div>
-           <input type="checkbox" name="remember" id="remember"/><label for="remember"> Recuerdame</label>
-        </div>
-     </form>      
-<footer>      
-        <div>
-           <h4>¿No tienes cuenta?</h4>    
-           <input type="submit" name="submit" value="Crear cuenta"/>   
-        </div> 
+    <section id="login">
+         <form id="login_form" name="login" action="login.html" method="post">
+               <h2>Inicio de Sesión</h2>
+            <div class="campo_form">  
+               <label for="nombredeusuario/email">Nombre de usuario / email</label><br/>      
+               <input type="email" name="Nombredeusuario/email" id="nombredeusuario/email"
+                 value="" placeholder="Email de usuario" required autofocus autocomplete="on"/>
+            </div>
+            <div  class="campo_form">
+               <label>Contraseña</label><br/>      
+               <input type="password" name="contrasena" id="contrasena"
+                 value="" placeholder="Password" required/>  
+            </div> 
       
-        <div>
-           <h4>¿Has olvidado tu contraseña?</h4>  
-           <input type="submit" name="submit" value="Recuperar"/>      
-        </div>      
-      
-</footer>
+            <div  class="campo_form">
+               <input type="submit" name="submit" value="Acceso"/>      
+            </div> 
+    
+            <div  class="campo_form">
+               <input type="checkbox" name="remember" id="remember"/><label for="remember"> Recuerdame</label>
+            </div>
+         </form>      
+        <footer>      
+                <div>
+                   <h4>¿No tienes cuenta?</h4>    
+                   <input type="submit" name="submit" value="Crear cuenta"/>   
+                </div> 
+
+                <div>
+                   <h4>¿Has olvidado tu contraseña?</h4>  
+                   <input type="submit" name="submit" value="Recuperar"/>      
+                </div>      
+
+        </footer>
     </section>
 </body>
 </html>
