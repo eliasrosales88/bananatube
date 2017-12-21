@@ -1,0 +1,39 @@
+#main_wrapper{
+    margin: 10px;
+    position: relative;
+}
+#botones{
+    position: absolute;
+    bottom: -60px;
+    margin-left: 65px;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+span {
+    float: left;
+}
+
+#usuario_comentario {
+    float: left;
+    padding-left: 10px;
+}
+
+aside {
+    float: right;
+}
+
+
+.enlinea{
+    display: inline-block;
+}
+
+aside p{
+        margin-bottom: 0px;
+        margin-top: 0px;
+}
+
+
+
+
