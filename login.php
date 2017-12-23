@@ -4,7 +4,7 @@
     <?php include "./components/head.php";?>
     <title>Login</title>
 </head>
-<body>
+<body class="container">
     <?php include "./components/header.php";?>
     <section id="login">
          <form id="login_form" name="login" action="login.html" method="post">

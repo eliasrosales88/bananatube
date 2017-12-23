@@ -1,0 +1,10 @@
+/*ESTILOS GLOBALES O GENERALES*/
+@import url("style_global.css");
+
+/*ESTILOS DE COMPONENTES*/
+@import url("style_header.css");
+@import url("style_footer.css");
+@import url("style_comentario.css");
+
+/*ESTILOS DE VISTAS*/
+@import url("style_login.css");
