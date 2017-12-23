@@ -5,6 +5,7 @@
 @import url("style_header.css");
 @import url("style_footer.css");
 @import url("style_comentario.css");
+@import url("style_friendlist.css");
 
 /*ESTILOS DE VISTAS*/
 @import url("style_login.css");

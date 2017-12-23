@@ -28,14 +28,13 @@
                <input type="checkbox" name="remember" id="remember"/><label for="remember"> Recuerdame</label>
             </div>
          </form>      
-        <div>      
-                <div>
-                   <h4>¿No tienes cuenta?</h4>    
+        <footer>      
+                <div class="izq">
+                   <h4 class="getaccount">¿No tienes cuenta?</h4>    
                    <input type="submit" name="submit" value="Crear cuenta"/>   
                 </div> 
-
-                <div>
-                   <h4>¿Has olvidado tu contraseña?</h4>  
+                <div class="izq subir">
+                   <h4 class="getaccount">¿Has olvidado tu contraseña?</h4>  
                    <input type="submit" name="submit" value="Recuperar"/>      
                 </div>      
         </footer>
