@@ -4,7 +4,7 @@
   <?php include "./components/head.php";?>
   <title>Document</title>
 </head>
-<body class="container bg_main" >
+<body class="container-fluid bg_main" >
   <?php include "./components/header.php";?>
   dcscdc
   <?php include "./components/footer.php";?>

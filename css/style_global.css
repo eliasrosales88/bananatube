@@ -9,15 +9,8 @@
 
 
 /*ESTA CLASE ES DE USO EXCLUSIVO PARA LA ETIQUETA BODY <body></body>*/
-.container{
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    background: var(--color_fondo);
-}
-
-
 .bg_main{
+    background: var(--color_fondo);
     background-image: var(--bg_img_main);
     background-repeat: repeat;
     }
