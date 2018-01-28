@@ -4,6 +4,7 @@
     /*Aqui van los font-family*/
     :root{
         --color_fondo: #FEFCC5;
+        --color_fondo_footer:#785F22;
         --bg_img_main: url("../img/banana_fondo.png");
     }
 
@@ -14,4 +15,6 @@
     background-image: var(--bg_img_main);
     background-repeat: repeat;
     }
-    
+.bg_footer{
+    background-color: var(--color_fondo_footer);
+}

@@ -6,7 +6,6 @@
 </head>
 <body class="container-fluid bg_main" >
   <?php include "./components/header.php";?>
-  dcscdc
   <?php include "./components/footer.php";?>
   </body>
 </html>
