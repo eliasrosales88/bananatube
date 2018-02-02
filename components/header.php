@@ -2,16 +2,21 @@
     <div class="row green">
         <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12">
             <div class="row">
-                <div class="col-2">
-                    <i class="fa fa-bars fa-3x float-left text-white margin-top-15px" aria-hidden="true"></i>
+                <div id="header_barras" class="col-3">
+                    <i class="fa fa-bars fa-3x float-left text-white ml-2 p-0 margin-top-15px" aria-hidden="true"></i>
                 </div>
-                <figure class="col-8">
+                <figure class="col-7">
                     <div class="text-center">
                         <img class="margin-top-25px mx-auto" src="img/logoweb2.png" alt="bananatube">
                     </div>
                 </figure>
                 <div class="col-2">
-                    <i class="fa fa-ellipsis-v fa-3x d-md-none float-right text-white margin-top-15px" aria-hidden="true"></i>
+                    <i class="fa fa-ellipsis-v fa-3x d-md-none float-right text-white margin-top-15px" aria-hidden="true" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <button class="dropdown-item" type="button">Action</button>
+                            <button class="dropdown-item" type="button">Another action</button>
+                            <button class="dropdown-item" type="button">Something else here</button>
+                        </div>
                 </div>
             </div>
             
