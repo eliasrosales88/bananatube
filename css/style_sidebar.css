@@ -9,6 +9,8 @@
 
 .bg_aside_top{
     background: #7EB04C;
+    height: 150px;
+
 }
 
 .z-menu{
@@ -16,4 +18,8 @@
     height: 100%;
     z-index: 2000000;
     position: absolute;
+}
+
+.icon_dark{
+    color: #333333;
 }

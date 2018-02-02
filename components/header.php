@@ -13,9 +13,9 @@
                 <div class="col-2">
                     <i class="fa fa-ellipsis-v fa-3x d-md-none float-right text-white margin-top-15px" aria-hidden="true" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <button class="dropdown-item" type="button">Action</button>
-                            <button class="dropdown-item" type="button">Another action</button>
-                            <button class="dropdown-item" type="button">Something else here</button>
+                            <div class="text-center">
+                                <?php include "header_component_registro.php"?>
+                            </div>
                         </div>
                 </div>
             </div>
@@ -32,8 +32,7 @@
         <div class="col-xl-3 col-lg-3 col-md-4 col-sm-3 col-12 d-none d-sm-none d-md-block">
             <div class="margin-top-25px">
             <nav class="float-right">
-                <button class="btn">Registro</button>
-                <button class="btn btn-success">Sign in</button>
+                <?php include "header_component_registro.php"?>
             </nav>
             </div>
         </div>

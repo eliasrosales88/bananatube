@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <?php include "./components/head.php";?>
-  <title>Document</title>
+  <title>BananaTube</title>
 </head>
 <body class="container-fluid bg_main">
 
@@ -11,7 +11,7 @@
   <!-- CABECERA -->  
   <?php include "./components/header.php";?>
   <!-- CONTENIDO -->  
-  
+  Aqui va el contenido
   <!-- PIE DE PAGINA -->  
   <?php include "./components/footer.php";?>
   </body>
