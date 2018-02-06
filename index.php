@@ -2,11 +2,17 @@
 <html lang="es">
 <head>
   <?php include "./components/head.php";?>
-  <title>Document</title>
+  <title>BananaTube</title>
 </head>
-<body class="container bg_main" >
+<body class="container-fluid bg_main">
+
+  <!-- SIDEBAR -->  
+  <?php include "./components/sidebar.php";?>
+  <!-- CABECERA -->  
   <?php include "./components/header.php";?>
-  dcscdc
+  <!-- CONTENIDO -->  
+  Aqui va el contenido
+  <!-- PIE DE PAGINA -->  
   <?php include "./components/footer.php";?>
   </body>
 </html>

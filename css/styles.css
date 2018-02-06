@@ -1,11 +1,17 @@
+/*BIBLIOTECAS CSS*/
+@import url("bootstrap.min.css");
+@import url("font-awesome-4.7.0/css/font-awesome.min.css");
+
+
 /*ESTILOS GLOBALES O GENERALES*/
 @import url("style_global.css");
 
 /*ESTILOS DE COMPONENTES*/
 @import url("style_header.css");
-@import url("style_footer.css");
+@import url("style_sidebar.css");
 @import url("style_comentario.css");
 @import url("style_friendlist.css");
+@import url("style_footer.css");
 
 /*ESTILOS DE VISTAS*/
 @import url("style_login.css");
