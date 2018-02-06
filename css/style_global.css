@@ -4,21 +4,17 @@
     /*Aqui van los font-family*/
     :root{
         --color_fondo: #FEFCC5;
+        --color_fondo_footer:#785F22;
         --bg_img_main: url("../img/banana_fondo.png");
     }
 
 
 /*ESTA CLASE ES DE USO EXCLUSIVO PARA LA ETIQUETA BODY <body></body>*/
-.container{
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    background: var(--color_fondo);
-}
-
-
 .bg_main{
+    background: var(--color_fondo);
     background-image: var(--bg_img_main);
     background-repeat: repeat;
     }
-    
+.bg_footer{
+    background-color: var(--color_fondo_footer);
+}
