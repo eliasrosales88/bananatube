@@ -18,28 +18,42 @@
     </div>
    
     <div class="row"> 
-    <div class="col-sm "> 
+    <div class="col-sm text-center"> 
     <div class="alert alert-danger" role="alert">
-     This is a danger alert—check it out!
+     por favor, rellena los campos obligatorios
     </div>
     </div>
     </div>
  <form>
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <label for="exampleInputEmail1">Nombre de Usuario(*)</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+    <small id="emailHelp" class="form-text text-muted"></small>
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <label for="exampleInputPassword1">Contraseña(*)</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="exampleConfirm">Confirmar contraseña(*)</label>
+    <input type="password" class="form-control" id="exampleConfirm" placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="exampleCorreo">Correo electrónico(*)</label>
+    <input type="text" class="form-control" id="exampleCorreo" placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="exampleNombre">Nombre y apellidos(*)</label>
+    <input type="text" class="form-control" id="exampleNombre" placeholder="">
   </div>
   <div class="form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    <label class="form-check-label" for="exampleCheck1">Acepto términos y condiciones de uso</label>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+  <br>
+  <button type="submit" class="btn btn-primary">Crear cuenta</button>
+</form> 
+  <br>
   <!-- PIE DE PAGINA -->  
   <?php include "./components/footer.php";?>
   </body>
