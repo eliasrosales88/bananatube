@@ -4,14 +4,16 @@
   <?php include "./components/head.php";?>
   <title>BananaTube</title>
 </head>
-<body class="container-fluid bg_main">
+<body class="bg_main">
+  <div class="container-fluid  mb-xl-5 mb-lg-5" >
+      <!-- SIDEBAR -->  
+      <?php include "./components/sidebar.php";?>
+      <!-- CABECERA -->  
+      <?php include "./components/header.php";?>
+      <!-- CONTENIDO -->  
+        
 
-  <!-- SIDEBAR -->  
-  <?php include "./components/sidebar.php";?>
-  <!-- CABECERA -->  
-  <?php include "./components/header.php";?>
-  <!-- CONTENIDO -->  
-  Aqui va el contenido
+  </div>
   <!-- PIE DE PAGINA -->  
   <?php include "./components/footer.php";?>
   </body>

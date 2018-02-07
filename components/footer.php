@@ -1,4 +1,4 @@
-<footer class="fixed-bottom bg_footer footer_content">
+<footer class="container-fluid fixed-bottom bg_footer footer_content">
     <div class="row navbar">
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 text-center">
             <a href="#" class="link_footer">Contacto</a>
@@ -20,9 +20,6 @@
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
             <p class="footer_info">BananaTube y sus administradores no se hacen responsables de las opiniones publicadas por los usuarios y colaboradores en el sitio.</p>
         </div>
-        
-        
-        
     </div>
 </footer>
      
