@@ -1,4 +1,4 @@
-<footer class="container-fluid fixed-bottom bg_footer footer_content">
+<footer class="container-fluid tobottom bg_footer footer_content">
     <div class="row navbar">
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 text-center">
             <a href="#" class="link_footer">Contacto</a>

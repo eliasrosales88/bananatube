@@ -5,7 +5,7 @@
   <title>BananaTube</title>
 </head>
 <body class="bg_main">
-  <div class="container-fluid  mb-xl-5 mb-lg-5" >
+  <div class="container-fluid" >
       <!-- SIDEBAR -->  
       <?php include "./components/sidebar.php";?>
       <!-- CABECERA -->  

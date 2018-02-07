@@ -2,20 +2,9 @@
     color: #FEFCC5;
     font-size: 9pt;
 }
-/*
-.footer_top {
-    width: 100%;
-    text-align: center;
-    overflow: hidden;
-    }
-
-.footer_nav {
-    list-style-type: none;
-    float:left;
-    padding-left:  12%;
-    padding-right: 12%;
-    }
-*/
+.tobottom{
+    margin-top: 30%;
+}
 .link_footer {
     text-decoration: none;
     color: #FEFCC5;
