@@ -50,7 +50,7 @@
     <label class="form-check-label" for="exampleCheck1">Acepto términos y condiciones de uso</label>
   </div>
   <br>
-  <button type="submit" class="btn btn-primary">Crear cuenta</button>
+  <button type="submit" class="btn  sara">Crear cuenta</button>
 </form> 
   <br>
 
