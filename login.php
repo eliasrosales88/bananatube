@@ -30,7 +30,7 @@
          </form>      
         <footer>      
                 <div class="izq">
-                   <h4 class="getaccount">¿No tienes cuenta?</h4>    
+                   <h4 >¿No tienes cuenta?</h4>    
                    <input type="submit" name="submit" value="Crear cuenta"/>   
                 </div> 
                 <div class="izq subir">
