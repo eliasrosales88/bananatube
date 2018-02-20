@@ -54,14 +54,31 @@
     <label class="form-check-label" for="exampleCheck1">Acepto términos y condiciones de uso</label>
   </div>
   <br>
-  <button type="submit" class="btn  sara">Crear cuenta</button>
+  <button type="submit" class="btn  sara" data-toggle="modal" data-target="#modal5">Crear cuenta</button>
 </form>
        
    </div>
-   <div class="col-xl-2 col-lg-2 col-md-1 "></div>
-   
-    
+   <div class="col-xl-2 col-lg-2 col-md-1 "></div> 
 </div>    
+ <!--modal-->
+ 
+ <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Hemos mandado un correo electrónico a tu bandeja, revísala y sigue el enlace para dar de alta tu usuario y comenzar en BananaTube :).
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn sara" data-dismiss="modal">Continuar</button>
+      </div>
+    </div>
+  </div>
+</div>
  
   <br>
   </div>
