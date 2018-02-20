@@ -1,9 +1,11 @@
 .footer_content {
     color: #FEFCC5;
     font-size: 9pt;
+    
 }
 .tobottom{
-    margin-top: 5%;
+    margin-top: 20%;
+    height: 400px;
 }
 .link_footer {
     text-decoration: none;
