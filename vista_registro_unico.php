@@ -12,17 +12,20 @@
       <?php include "./components/header.php";?>
       <!-- CONTENIDO -->  
       <div class="row">             
-      <div class="col-sm text-center">
-        <h2>Registro</h2>
-      </div>        
+        <div class="col-sm text-center">
+          <h2>Registro</h2>
+        </div>        
       </div>
-    <div class="row"> 
-      <div class="col-sm text-center"> 
-        <div class="alert alert-danger" role="alert">
-        por favor, rellena los campos obligatorios
+      <div class="row"> 
+        <div class="col-sm text-center"> 
+          <div class="alert alert-danger alert-dismissible fade show d-none" role="alert">
+            <strong>Upss!</strong> No hemos tenido respuesta del servidor. Por favor inténtalo de nuevo.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>  
         </div>
       </div>
-    </div>
     
 <div class="row">
    <div class="col-xl-2 col-lg-2 col-md-1"></div>
@@ -51,11 +54,11 @@
   </div>
   <div class="form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Acepto términos y condiciones de uso</label>
+    <label class="form-check-label ml-4" for="exampleCheck1">Acepto términos y condiciones de uso</label>
   </div>
   <br>
-  <button type="submit" class="btn  sara" data-toggle="modal" data-target="#modal5">Crear cuenta</button>
 </form>
+<button type="submit" class="btn  sara" data-toggle="modal" data-target="#modal5">Crear cuenta</button>
        
    </div>
    <div class="col-xl-2 col-lg-2 col-md-1 "></div> 

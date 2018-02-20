@@ -7,7 +7,7 @@
                 </div>
                 <figure class="col-7">
                     <div class="text-center">
-                        <img class="margin-top-25px mx-auto" src="img/logoweb2.png" alt="bananatube">
+                        <img id="logo-banana" class="margin-top-25px mx-auto" src="img/logoweb2.png" alt="bananatube">
                     </div>
                 </figure>
                 <div class="col-2">
@@ -15,8 +15,8 @@
                         <div class="dropdown-menu dropdown-menu-right">
                             <div class="text-center">
                                 <?php /*include "header_component_registro.php"*/?>
-                                <button id="btn_registro"  class="btn mb-2" type="button">Registro</button>
-                                <button id="btn_signin" class="btn mb-2 btn-success" type="button">Inicia sesión</button>
+                                <button id="btn_registro"  class="btn mb-2 sara" type="button">Registro</button>
+                                <button id="btn_signin" class="btn mb-2 ana" type="button">Ingresar</button>
                             </div>
                         </div>
                 </div>
@@ -35,8 +35,8 @@
             <div class="margin-top-25px">
             <nav class="float-right">
                 <?php /*include "header_component_registro.php"*/?>
-                <button id="btn_registro_movil"  class="btn mb-2" type="button">Registro</button>
-                <button id="btn_signin_movil" class="btn mb-2 btn-success" type="button">Inicia sesión</button>
+                <button id="btn_registro_movil"  class="btn mb-2 sara" type="button">Registro</button>
+                <button id="btn_signin_movil" class="btn mb-2 ana" type="button">Ingresar</button>
             </nav>
             </div>
         </div>

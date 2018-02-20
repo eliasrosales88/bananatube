@@ -13,10 +13,10 @@
       <?php include "./components/header.php";?>    
   
       <!-- CONTENIDO -->
-  <div class="row">             
-      <div class="col-sm text-center">
-        <h2>Configuración</h2>
-      </div>        
+  <div class="row mb-4">             
+    <div class="col-sm text-center">
+      <h2>Configuración</h2>
+    </div>        
   </div>
   <div class="row">
       
@@ -26,34 +26,33 @@
    <div class="col-xl-2 col-lg-2 col-md-1"></div>
    <div class="col-xl-8 col-lg-8 col-md-10 col-sm-12 col-12">
       <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1" class="col-sm text-center">Nuevo nombre de Usuario</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
-    <small id="emailHelp" class="form-text text-muted"></small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1" class="col-sm text-center">Nueva contraseña</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
-  </div>
-  <div class="form-group">
-    <label for="exampleConfirm" class="col-sm text-center">Confirmar nueva contraseña</label>
-    <input type="password" class="form-control" id="exampleConfirm" placeholder="">
-  </div>
-  <div class="form-check text-center">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Mostrar notificaciones</label>
-  </div>  
-  </form>
-  <br>
-  <div class="col-sm text-center">
-      <button type="submit" class="btn  sara">Guardar cambios</button>
-  </div> 
-  <br>    
-  <div class="col-sm text-center">
-      <button type="submit" class="btn  sara" data-toggle="modal" data-target="#modal1">Borrar cuenta</button>
-  </div> 
-       
-   </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1" class="col-sm text-center">Nuevo nombre de Usuario</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+          <small id="emailHelp" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1" class="col-sm text-center">Nueva contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+        </div>
+        <div class="form-group">
+          <label for="exampleConfirm" class="col-sm text-center">Confirmar nueva contraseña</label>
+          <input type="password" class="form-control" id="exampleConfirm" placeholder="">
+        </div>
+        <div class="form-check text-center">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label ml-4" for="exampleCheck1">Mostrar notificaciones</label>
+        </div>  
+      </form>
+      <br>
+      <div class="col-sm text-center">
+          <button type="submit" class="btn sara">Guardar cambios</button>
+      </div> 
+      <br>    
+      <div class="col-sm text-center">
+          <button type="submit" class="btn  sara" data-toggle="modal" data-target="#modal1">Borrar cuenta</button>
+      </div> 
+    </div>
    <div class="col-xl-2 col-lg-2 col-md-1"></div>        
   </div> 
   <!--primer modal-->
