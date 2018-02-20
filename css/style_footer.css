@@ -5,7 +5,7 @@
 }
 .tobottom{
     margin-top: 20%;
-    height: 400px;
+    height: 250px;
 }
 .link_footer {
     text-decoration: none;
@@ -18,3 +18,10 @@
 .footer_info {
     text-align: center;
 }
+
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
+  

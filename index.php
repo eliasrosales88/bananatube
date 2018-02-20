@@ -11,15 +11,7 @@
       <!-- CABECERA -->  
       <?php include "./components/header.php";?>
       <!-- CONTENIDO -->  
-      <div>hola</div>  
-      <div>hola</div>  
-      <div>hola</div>  
-      <div>hola</div>  
-      <div>hola</div>  
-      <div>hola</div>  
-      <div>hola</div>  
-      <div>hola</div>  
-      <div>hola</div>  
+      
      
 
   </div>

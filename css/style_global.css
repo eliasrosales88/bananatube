@@ -18,3 +18,8 @@
 .bg_footer{
     background-color: var(--color_fondo_footer);
 }
+
+body {
+  
+    min-height: 100%;
+  }
