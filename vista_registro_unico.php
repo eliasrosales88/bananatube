@@ -15,7 +15,7 @@
       <div class="col-sm text-center">
         <h2>Registro</h2>
       </div>        
-    </div>
+      </div>
     <div class="row"> 
       <div class="col-sm text-center"> 
         <div class="alert alert-danger" role="alert">
@@ -23,26 +23,30 @@
         </div>
       </div>
     </div>
-    <form>
+    
+<div class="row">
+   <div class="col-xl-2 col-lg-2 col-md-1"></div>
+   <div class="col-xl-8 col-lg-8 col-md-10 col-sm-12 col-12">
+       <form>
   <div class="form-group">
-    <label for="exampleInputEmail1">Nombre de Usuario(*)</label>
+    <label for="exampleInputEmail1" class="col-sm text-center">Nombre de Usuario(*)</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
     <small id="emailHelp" class="form-text text-muted"></small>
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Contraseña(*)</label>
+    <label for="exampleInputPassword1" class="col-sm text-center">Contraseña(*)</label>
     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
   </div>
   <div class="form-group">
-    <label for="exampleConfirm">Confirmar contraseña(*)</label>
+    <label for="exampleConfirm" class="col-sm text-center">Confirmar contraseña(*)</label>
     <input type="password" class="form-control" id="exampleConfirm" placeholder="">
   </div>
   <div class="form-group">
-    <label for="exampleCorreo">Correo electrónico(*)</label>
+    <label for="exampleCorreo" class="col-sm text-center">Correo electrónico(*)</label>
     <input type="text" class="form-control" id="exampleCorreo" placeholder="">
   </div>
   <div class="form-group">
-    <label for="exampleNombre">Nombre y apellidos(*)</label>
+    <label for="exampleNombre" class="col-sm text-center">Nombre y apellidos(*)</label>
     <input type="text" class="form-control" id="exampleNombre" placeholder="">
   </div>
   <div class="form-check">
@@ -51,9 +55,15 @@
   </div>
   <br>
   <button type="submit" class="btn  sara">Crear cuenta</button>
-</form> 
+</form>
+       
+   </div>
+   <div class="col-xl-2 col-lg-2 col-md-1 "></div>
+   
+    
+</div>    
+ 
   <br>
-
   </div>
   <!-- PIE DE PAGINA -->  
   <?php include "./components/footer.php";?>
