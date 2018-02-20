@@ -8,7 +8,7 @@
 
 //ASIGNACION DE EVENTOS CON LAS FUNCIONES DEFINIDAS
 function init (){
-    console.log("DOM Cargado");
+    console.log("Sidebar Cargado");
 
  
 

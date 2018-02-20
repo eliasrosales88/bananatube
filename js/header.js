@@ -12,11 +12,29 @@ function escondeSidebar(){
 
 //ASIGNACION DE EVENTOS CON LAS FUNCIONES DEFINIDAS
 function init (){
-    console.log("DOM Cargado");
+    console.log("Header Cargado");
 
     $("#header_barras").click(muestraSidebar);
     $("#dark").click(escondeSidebar);
 
+    //BOTONES DE NAVEGACION DEL HEADER - REGISTRO
+    $("#btn_registro").click(function(){
+        window.open("http://localhost/bananatube/vista_registro_unico.php", "_self")
+    });
+    $("#btn_registro_movil").click(function(){
+        window.open("http://localhost/bananatube/vista_registro_unico.php", "_self")
+    });
+
+    //BOTONES DE NAVEGACION DEL HEADER - INICIO
+    $("#btn_signin").click(function(){
+        window.open("http://localhost/bananatube/inicio_sesion.php", "_self")
+    });
+    $("#btn_signin_movil").click(function(){
+        window.open("http://localhost/bananatube/inicio_sesion.php", "_self")
+    });
+
+
+    
 
 }
 $(document).ready(init);
