@@ -20,11 +20,11 @@
           </video>
           <div id="ranking-bananas" class="row">
             <div class="col-1"></div>
-            <div class="col-1">Bananas</div>
-            <div class="col-1">Bananas</div>
-            <div class="col-1">Bananas</div>
-            <div class="col-1">Bananas</div>
-            <div class="col-1">Bananas</div>
+            <div class="col-1"><img onclick="valoracionBanastar(1)" id="banastar1" data-id="1" src="./img/banastar.png" alt="banastar1" class="d-none"><img onclick="valoracionBanastar(1)"  id="banastar_dark1" data-id="1" src="./img/banastar_dark.png" alt="banastar1_dark"></div>
+            <div class="col-1"><img onclick="valoracionBanastar(2)" id="banastar2" data-id="2" src="./img/banastar.png" alt="banastar2" class="d-none"><img onclick="valoracionBanastar(2)"  id="banastar_dark2" data-id="2" src="./img/banastar_dark.png" alt="banastar2_dark"></div>
+            <div class="col-1"><img onclick="valoracionBanastar(3)" id="banastar3" data-id="3" src="./img/banastar.png" alt="banastar3" class="d-none"><img onclick="valoracionBanastar(3)"  id="banastar_dark3" data-id="3" src="./img/banastar_dark.png" alt="banastar3_dark"></div>
+            <div class="col-1"><img onclick="valoracionBanastar(4)" id="banastar4" data-id="4" src="./img/banastar.png" alt="banastar4" class="d-none"><img onclick="valoracionBanastar(4)"  id="banastar_dark4" data-id="4" src="./img/banastar_dark.png" alt="banastar4_dark"></div>
+            <div class="col-1"><img onclick="valoracionBanastar(5)" id="banastar5" data-id="5" src="./img/banastar.png" alt="banastar5" class="d-none"><img onclick="valoracionBanastar(5)" value= true id="banastar_dark5" data-id="5" src="./img/banastar_dark.png" alt="banastar5_dark"></div>
             <div class="col-3">Charles Darwing</div>
             <div class="col-2">123.456 visitas</div>
             <div class="col-1"></div>
@@ -72,8 +72,6 @@
             </video>
           </div>
         </div>
-        
-        
       </div>
       <div id="vistos" class="row">
         <div class="row ml-4">
