@@ -1,15 +1,18 @@
 /*BIBLIOTECAS CSS*/
+
 @import url("bootstrap.min.css");
 @import url("font-awesome-4.7.0/css/font-awesome.min.css");
 
-
 /*FONT FAMILY*/
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 /*ESTILOS GLOBALES O GENERALES*/
+
 @import url("style_global.css");
 
 /*ESTILOS DE COMPONENTES*/
+
 @import url("style_header.css");
 @import url("style_botones.css");
 @import url("style_checkbox.css");
@@ -19,4 +22,6 @@
 @import url("style_footer.css");
 
 /*ESTILOS DE VISTAS*/
+
 @import url("style_login.css");
+@import url("style_perfil.css");

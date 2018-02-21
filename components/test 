@@ -1,0 +1,18 @@
+function lateRide(n) {
+var hour = Math.floor(n/60);
+var min = ( n/60 - Math.floor(n/60) ) * 60;
+}
+function addTwoDigits(hour) {
+    var hour2= return hour%10 + Math.floor(hour/10);
+}
+
+function addTwoDigits(min) {
+    var min2= return hour%10 + Math.floor(hour/10);
+}
+
+total = hour2 + min2
+
+function addTwoDigits(total) {
+    var result= return total%10 + Math.floor(total/10);
+    return result;
+}
