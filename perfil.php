@@ -1,66 +1,81 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <?php include "./components/head.php";?>
-  <title>BananaTube</title>
+    <?php include "./components/head.php";?>
+    <title>BananaTube</title>
 </head>
+
 <body class="bg_main">
-  <div class="container-fluid" >
-      <!-- SIDEBAR -->  
-      <?php include "./components/sidebar.php";?>
-      <!-- CABECERA -->  
-      <?php include "./components/header.php";?>    
-      <!-- CONTENIDO -->
-   <div>
-        <img src="./img/teslaAvatar.png" al alt="Profile picture">
-   </div>
-   <div>
-        <div>Nikola Tesla</div>
-        <div>@PalomitaKawaii</div>
-        <div>Fui un inventor, ingeniero mecánico, eléctrico y físico de origen serbio. Fan de la electricidad y las palomas.</div>
-   </div>
-   <div>
-       <div>
-           NavBAr
-       </div>
-       <div id="demo" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ul class="carousel-indicators">
-                <li data-target="#demo" data-slide-to="0" class="active"></li>
-                <li data-target="#demo" data-slide-to="1"></li>
-                <li data-target="#demo" data-slide-to="2"></li>
-                </ul>
-
-                <!-- The slideshow -->
+    <!-- BEGINNING del container fluid -->
+    <div class="container-fluid">
+        <!-- SIDEBAR -->
+        <?php include "./components/sidebar.php";?>
+        <!-- CABECERA -->
+        <?php include "./components/header.php";?>
+        <!-- CONTENIDO -->
+        <div class="row mt-2">
+            <img class="rounded mx-auto d-block" src="./img/teslaAvatar.png" al alt="Profile picture">
+        </div>
+        <div class="row">
+            <h5 class="col text-center">
+                Nikola Tesla
+            </h5>
+        </div>
+        <div class="col text-center">
+            @PalomitaKawaii
+        </div>
+        <div class="col text-center">
+            Fui un inventor, ingeniero mecánico, eléctrico y físico de origen serbio. Fan de la electricidad y las palomas.
+        </div>
+        <div class="row">
+            <div class="col-4">
+            <div class="table-responsive-md col-4">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td>Vídeos subidos</td>
+                            <td>Todos mis vídeos</td>
+                            <td>Compartidos</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-4">
+        </div>
+        <div class="row">
+            <div id="carouselVideos" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <video class="video-fluid">
-                        <source src="https://www.youtube.com/watch?v=927HxTAQ2rg" type="video/mp4" />
-                    </video>        
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://misanimales.com/wp-content/uploads/2016/10/crecen-los-gatos.jpg" alt="First video">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://misanimales.com/wp-content/uploads/2016/10/crecen-los-gatos.jpg" alt="Second video">
+                    </div>
+                    <div class="carousel-item">
+                        <video width="300" height="200" controls>
+                            <source src="./videos/bunny.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>    
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="./img/fav.png" alt="Chicago" width="1100" height="500">
-                </div>
-                <div class="carousel-item">
-                    <video class="video-fluid">
-                        <source src="https://www.youtube.com/watch?v=ojYme73UBko" type="video/mp4" />
-                    </video>
-                </div>
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
+                <a class="carousel-control-prev" href="#carouselVideos" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#demo" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
+                <a class="carousel-control-next" href="#carouselVideos" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
                 </a>
-                </div>
-                    </div> 
-                </div>
-     </div>         
+            </div>
 
-  <?php include "./components/footer.php";?>   
-</body> 
-      
+
+        </div>
+
+        <!-- END del container fluid -->
+    </div>
+
+    <?php include "./components/footer.php";?>
+</body>
+
 </html>
