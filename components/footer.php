@@ -1,10 +1,10 @@
 <footer class="container-fluid tobottom bg_footer footer_content">
     <div class="row navbar">
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 text-center">
-            <a href="#" class="link_footer">Contacto</a>
+            <a href="contacto.php" class="link_footer">Contacto</a>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 text-center">
-            <a href="#" class="link_footer">Política de privacidad</a>
+            <a href="condiciones.php" class="link_footer">Términos y condiciones</a>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 text-center">
             <a href="#" class="link_footer">Política de cookies</a>

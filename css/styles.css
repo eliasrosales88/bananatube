@@ -3,12 +3,16 @@
 @import url("font-awesome-4.7.0/css/font-awesome.min.css");
 
 
+/*FONT FAMILY*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 /*ESTILOS GLOBALES O GENERALES*/
 @import url("style_global.css");
 
 /*ESTILOS DE COMPONENTES*/
 @import url("style_header.css");
 @import url("style_botones.css");
+@import url("style_checkbox.css");
 @import url("style_sidebar.css");
 @import url("style_comentario.css");
 @import url("style_friendlist.css");

@@ -10,12 +10,12 @@
         </div>
         <div class="row ">
             <ul class="list-group border-0">
-                <li class="list-group-item border-0"><i class="fa fa-home mr-4 icon_dark"></i><a href="">Inicio</a></li>
+                <li class="list-group-item border-0"><i class="fa fa-home mr-4 icon_dark"></i><a href="index.php">Inicio</a></li>
                 <li class="list-group-item border-0"><i class="fa fa-address-card mr-4 icon_dark"></i><a href="">Perfil</a></li>
                 <li class="list-group-item border-0"><i class="fa fa-cloud-upload mr-4 icon_dark"></i><a href="">Subir vídeos</a></li>
                 <li class="list-group-item border-0"><i class="fa fa-image mr-4 icon_dark"></i><a href="">Gestión de contendidos</a></li>
-                <li class="list-group-item border-0"><i class="fa fa-users mr-4 icon_dark"></i><a href="">Amigos</a></li>
-                <li class="list-group-item border-0"><i class="fa fa-cog mr-4 icon_dark"></i><a href="">Configuración</a></li>
+                <li class="list-group-item border-0"><i class="fa fa-users mr-4 icon_dark"></i><a href="listadeamigos.php">Amigos</a></li>
+                <li class="list-group-item border-0"><i class="fa fa-cog mr-4 icon_dark"></i><a href="inicio_sesion.php">Configuración</a></li>
                 <li class="list-group-item border-0"><i class="fa fa-pencil mr-4 icon_dark"></i><a href="">Enviar sugerencias</a></li>
             </ul>
         </div>

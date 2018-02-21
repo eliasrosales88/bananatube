@@ -1,11 +1,11 @@
-
 /*VARIABLES CSS*/
     /*Aqui van los colores base del sitio web*/
     /*Aqui van los font-family*/
     :root{
         --color_fondo: #FEFCC5;
         --color_fondo_footer:#785F22;
-        --bg_img_main: url("../img/banana_fondo.png");
+        --bg_img_main: url("../img/banana_fondo_pieza.png");
+        --font-family: 'Roboto', sans-serif;
     }
 
 
@@ -18,3 +18,18 @@
 .bg_footer{
     background-color: var(--color_fondo_footer);
 }
+
+body {
+    font-family: var(--font-family);
+    min-height: 100%;
+  }
+
+  h1, h2, h3, h4, h5, h6, label{
+      color: var(--color_fondo_footer);
+      font-weight: bold;
+  }
+
+  label{
+    font-size: 1.2em;
+
+  }
