@@ -3,7 +3,6 @@
 <head>
   <?php include "./components/head.php";?>
   <title>BananaTube</title>
-  <script src="js/registro_configuracion_modal.js"></script>
 </head>
 <body class="bg_main">
   <div class="container-fluid" >
@@ -11,20 +10,17 @@
       <?php include "./components/sidebar.php";?>
       <!-- CABECERA -->  
       <?php include "./components/header.php";?>    
-  
       <!-- CONTENIDO -->
-  <div class="row mb-4">             
+      <br>
+  <div class="row">             
     <div class="col-sm text-center">
       <h2>Configuración</h2>
     </div>        
   </div>
-  <div class="row">
-      
-  </div>
-  <div class="row">
-     
-   <div class="col-xl-2 col-lg-2 col-md-1"></div>
-   <div class="col-xl-8 col-lg-8 col-md-10 col-sm-12 col-12">
+  <br>
+  <div class="row">  
+   <div class="col-xl-3 col-lg-3 col-md-2 col-sm-2"></div>
+   <div class="col-xl-6 col-lg-6 col-md-8 col-sm-8 col-12">
       <form>
         <div class="form-group">
           <label for="exampleInputEmail1" class="col-sm text-center">Nuevo nombre de Usuario</label>
@@ -53,7 +49,7 @@
           <button type="submit" class="btn  sara" data-toggle="modal" data-target="#modal1">Borrar cuenta</button>
       </div> 
     </div>
-   <div class="col-xl-2 col-lg-2 col-md-1"></div>        
+   <div class="col-xl-3 col-lg-3 col-md-2 col-sm-2"></div>        
   </div> 
   <!--primer modal-->
   <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

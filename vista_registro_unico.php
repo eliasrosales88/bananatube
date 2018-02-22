@@ -10,12 +10,14 @@
       <?php include "./components/sidebar.php";?>
       <!-- CABECERA -->  
       <?php include "./components/header.php";?>
-      <!-- CONTENIDO -->  
+      <!-- CONTENIDO -->
+      <br>  
       <div class="row">             
         <div class="col-sm text-center">
           <h2>Registro</h2>
         </div>        
       </div>
+      <br>
       <div class="row"> 
         <div class="col-sm text-center"> 
           <div class="alert alert-danger alert-dismissible fade show d-none" role="alert">
@@ -26,10 +28,9 @@
           </div>  
         </div>
       </div>
-    
 <div class="row">
-   <div class="col-xl-2 col-lg-2 col-md-1"></div>
-   <div class="col-xl-8 col-lg-8 col-md-10 col-sm-12 col-12">
+   <div class="col-xl-3 col-lg-3 col-md-2 col-sm-2"></div>
+   <div class="col-xl-6 col-lg-6 col-md-8 col-sm-8 col-12">
        <form>
   <div class="form-group">
     <label for="exampleInputEmail1" class="col-sm text-center">Nombre de Usuario(*)</label>
@@ -58,13 +59,12 @@
   </div>
   <br>
 </form>
-<button type="submit" class="btn  sara" data-toggle="modal" data-target="#modal5">Crear cuenta</button>
-       
+<button type="submit" class="btn  sara" 
+     data-toggle="modal" data-target="#modal5">Crear cuenta</button>
    </div>
-   <div class="col-xl-2 col-lg-2 col-md-1 "></div> 
+   <div class="col-xl-3 col-lg-3 col-md-2 col-sm-2"></div> 
 </div>    
- <!--modal-->
- 
+ <!-- MODAL -->
  <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -77,13 +77,12 @@
         Hemos mandado un correo electrónico a tu bandeja, revísala y sigue el enlace para dar de alta tu usuario y comenzar en BananaTube :).
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn sara" data-dismiss="modal">Continuar</button>
+        <button id="confirmacion" type="button" class="btn sara" data-dismiss="modal">Continuar</button>
       </div>
     </div>
   </div>
 </div>
- 
-  <br>
+ <!-- FIN DEL MODAL -->
   </div>
   <!-- PIE DE PAGINA -->  
   <?php include "./components/footer.php";?>
