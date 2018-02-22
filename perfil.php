@@ -30,17 +30,19 @@
         </div>
         <div class="row mt-4">
             <div class="col-1 col-sm-2 col-md-3 col-lg-4"></div>
-            <ul class="nav  mb-3 col-10 col-sm-8 col-md-6 col-lg-4" id="pills-tab" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link green" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Vídeos subidos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link green" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Todos mis vídeos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link green" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Compartidos</a>
-                </li>
-            </ul>
+            <nav class="nav  nav-justified col-10 col-sm-8 col-md-6 col-lg-4">
+                <ul class="nav  mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item nav-justified">
+                        <a class="nav-link green " id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Vídeos subidos</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link green " id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Mis vídeos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link green " id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Vídeos compartidos</a>
+                    </li>
+                </ul>
+            </nav>
             <div class="col-1 col-sm-2 col-md-3 col-lg-4"></div>
         </div>
 
