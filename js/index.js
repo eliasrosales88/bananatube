@@ -37,17 +37,13 @@ function valoracionBanastar(dataId, boolean){
 
 function init(){
 
-    /*let banastar1 = document.getElementById("banastar1");
-    let banastar_dark1 = document.getElementById("banastar_dark1");
-    banastar1.addEventListener("click", function(){
-        banastar1.classList.toggle("d-none");
-        banastar_dark1.classList.toggle("d-none");
-    });
-    banastar_dark1.addEventListener("click", function(){
-        banastar1.classList.toggle("d-none");
-        banastar_dark1.classList.toggle("d-none");
-    });*/
-    
+    var ub = window.location;
+    var uf="https://www.facebook.com/sharer.php?u="+ub;
+    var ut="https://twitter.com/home?status="+ub;
+    var ug="https://plus.google.com/share?url="+ub;
+    var up="https://www.pinterest.com/pin/create/button/?url="+ub;
+    var ul="https://www.linkedin.com/shareArticle?mini=true&url="+ub;
+    var uw="whatsapp://send?text="+ub;
 
 
 }
