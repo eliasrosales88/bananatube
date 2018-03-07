@@ -3,6 +3,7 @@
 <head>
   <?php include "./components/head.php";?>
   <title>BananaTube</title>
+  
 </head>
 <body class="bg_main">
   <div class="container-fluid" >
@@ -42,7 +43,7 @@
           <form action="" method="post">
             <div class="form-group">
               <label for="exampleFormControlTextarea1">Example textarea</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <textarea class="form-control" id="comments" rows="3"></textarea>
           </form>
         </div>
         <div class="col-xl-2 col-lg-2 col-md-1 col-sm-0 col-0"></div>
@@ -51,9 +52,9 @@
             <div class="row">
                     <!--<button type=""class="btn sara btn-md col-md-3 col-md-offset-6" data-toggle="modal" data-target="#exampleModalCenter">ENVIAR</button>-->
                     <div class="offset-10">
-                      <button type=""class="btn sara" data-toggle="modal" data-target="#exampleModalCenter">ENVIAR</button>   
+                      <button id="boton" type=""class="btn sara" data-toggle="modal" data-target="#exampleModalCenter">ENVIAR</button>   
                     </div>   
-          
+          <!--HE METIDO UN ID=BOTON-->
       </div>    
         <!--</form>-->
       </div>
