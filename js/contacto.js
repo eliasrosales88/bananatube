@@ -1,13 +1,13 @@
 function peticionPost() {
     console.log("Click pulsado!");
-    /*var objeto = {
-    };
-    objeto.textarea=$("#comments").val();*/
-    var textarea = $("#comments").val();
+    var datoscontacto = {};
+    datoscontacto.nombre = $("#nomre").val();
+    datoscontacto.email = $("#email").val();
+    datoscontacto.comentario = $("#comentario").val();
 
-    console.log(textarea);
+    console.log(datoscontacto);
 
-    /*$.post("#url",textarea,function(datos){
+    /*$.post("#url",datoscontacto,function(datos){
     console.log("success");
     $("#resultados").html(datos);
     }
